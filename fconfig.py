@@ -1,6 +1,7 @@
 # fconfig.py
 CHORD_WIDTH = 1
-INTERSPACE = 5 # spaces between partitions on plot
+INTERSPACE = 10 # spaces between partitions on plot
+BLACK_LINES = False
 
 Ginput_file = 'Partitions_new.xlsx'
 
