@@ -2,9 +2,10 @@
 CHORD_WIDTH = 1
 INTERSPACE = 5 # spaces between partitions on plot
 BLACK_LINES = False
-DUMMY_NETWORK = 100
+# DUMMY_NETWORK = 100
 PARTITION_COLORS = 'rainbow' # matplot color map for testing
 DRAW_PARTS_WITH_ONE_NODE = True
+WHITE_PARTS = True
 
 Ginput_file = 'Partitions_new.xlsx'
 
