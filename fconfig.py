@@ -9,7 +9,7 @@ WHITE_PARTS = True
 
 Ginput_file = 'Partitions_new.xlsx'
 
-color_names = {
+Xcolor_names = {
 1:('#00FFFF','aqua'),
 2:('#FF6103','cadmiumorange'),
 3:('#68228B','darkorchid4'),
