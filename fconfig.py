@@ -28,5 +28,6 @@ BLACK_CHORDS = False # draw chords with black not defined colors
 SHOW_PARTS_WITH_ONE_NODE = True # show partitions with only 1 node
 WHITE_PARTS = True
 
-DBG_CREATE_CSV = True
+DBG_CREATE_CSV = False
 DBG_CSV_FOLDER = 'csv/'
+SHOW_COLOR_BAR = False
