@@ -1,34 +1,10 @@
 # fconfig.py
-CHORD_WIDTH = 1
-INTERSPACE = 5 # spaces between partitions on plot
-BLACK_LINES = False
-# DUMMY_NETWORK = 100
-PARTITION_COLORS = 'rainbow' # matplot color map for testing
-DRAW_PARTS_WITH_ONE_NODE = True
-WHITE_PARTS = True
 
-Ginput_file = 'Partitions_new.xlsx'
-
-Xcolor_names = {
-1:('#00FFFF','aqua'),
-2:('#FF6103','cadmiumorange'),
-3:('#68228B','darkorchid4'),
-4:('#FF69B4','hotpink'),
-5:('#FF3030','firebrick1'),
-6:('#808080','gray'),
-7:('#1B45F1','blue'),
-8:('#FFFF00','yellow1'),
-9:('#000000','black'),
-10:('#8B2323','brown4'),
-11:('#006400','darkgreen'),
-12:('#00C957','emeraldgreen'),
-13:('#87CEFA','lightskyblue'),
-14:('#BCA8E2','lightpurple'),
-}
-
+# Input file for Chords
+EXCEL_INPUT_FILE = 'Partitions_new.xlsx'
 
 # https://matplotlib.org/3.5.0/gallery/color/named_colors.html
-unh_colors1 = {
+UNH_COLORS = {
     1: 'deepskyblue',
     2: 'lightsalmon',
     3: 'purple',
@@ -44,3 +20,13 @@ unh_colors1 = {
     13: 'lightskyblue',
     14: 'thistle'
  }
+
+CHORD_WIDTH = 1     # lines on plot width. 1 is min
+INTERSPACE = 5      # spaces between partitions on plot
+BLACK_CHORDS = False # draw chords with black not defined colors
+
+SHOW_PARTS_WITH_ONE_NODE = True # show partitions with only 1 node
+WHITE_PARTS = True
+
+DBG_CREATE_CSV = True
+DBG_CSV_FOLDER = 'csv/'
