@@ -21,13 +21,13 @@ UNH_COLORS = {
     14: 'thistle'
  }
 
-CHORD_WIDTH = 1     # lines on plot width. 1 is min
+CHORD_WIDTH = 1     # Nodes width - added to start column
 INTERSPACE = 5      # spaces between partitions on plot
 BLACK_CHORDS = False # draw chords with black not defined colors
 
 SHOW_PARTS_WITH_ONE_NODE = True # show partitions with only 1 node
 WHITE_PARTS = True
 
-DBG_CREATE_CSV = False
+DBG_CREATE_CSV = True
 DBG_CSV_FOLDER = 'csv/'
 SHOW_COLOR_BAR = False
