@@ -23,12 +23,17 @@ UNH_COLORS = {
 
 CHORD_WIDTH = 1     # Nodes width - added to start column
 INTERSPACE = 5      # spaces between partitions on plot
-BLACK_CHORDS = False # draw chords with black not defined colors
+BLACK_CHORDS = True # chords are black, do not use UNH_COLORS
 
-SHOW_PARTS_WITH_ONE_NODE = True # show partitions with only 1 node
-WHITE_PARTS = True
-PLOT_TITLE = True # display sheet name on plot
+SHOW_PARTS_WITH_ONE_NODE = False # show partitions with only 1 node
+WHITE_PARTS = True  # partitions are white, do not use UNH_COLORS
+PLOT_TITLE = True   # display sheet name on plot
 
+SAVE_PLOT_IMAGE = True              # save plots as 'partition name'_'sheet'.pdf
+SAVE_PLOT_IMAGE_FOLDER = 'images/'  # saved plots folder
+
+SHOW_COLOR_BAR = True              # show color bar of UNH_COLORS
+
+# debug variables
 DBG_CREATE_CSV = True
-DBG_CSV_FOLDER = 'csv/'
-SHOW_COLOR_BAR = False
+DBG_CREATE_CSV_FOLDER = 'csv/'
