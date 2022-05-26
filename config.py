@@ -21,7 +21,7 @@ UNH_COLORS = {
     14: 'thistle'
  }
 
-CHORD_WIDTH = 1     # Nodes width - added to start column
+
 INTERSPACE = 5      # spaces between partitions on plot
 BLACK_CHORDS = True # chords are black, do not use UNH_COLORS
 
@@ -31,6 +31,7 @@ PLOT_TITLE = True   # display sheet name on plot
 
 SAVE_PLOT_IMAGE = True              # save plots as 'partition name'_'sheet'.pdf
 SAVE_PLOT_IMAGE_FOLDER = 'images/'  # saved plots folder
+PLOT_DPI = 300                      # dpi of PNG image
 
 SHOW_COLOR_BAR = True              # show color bar of UNH_COLORS
 
