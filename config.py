@@ -1,7 +1,9 @@
 # fconfig.py
 
 # Input file for Chords
-EXCEL_INPUT_FILE = 'Partitions_new.xlsx'
+EXCEL_INPUT_FILE = 'Partitions_Langer.xlsx'
+# EXCEL_INPUT_FILE = 'Partitions_new.xlsx'
+CHORD_WIDTH = 0.25 # width of lines,
 
 # https://matplotlib.org/3.5.0/gallery/color/named_colors.html
 UNH_COLORS = {
